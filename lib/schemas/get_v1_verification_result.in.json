@@ -1,0 +1,24 @@
+{
+    "type": "object",
+    "properties": {
+        "tran_id": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "format": {
+            "enum": [
+                "json",
+                "xml"
+            ],
+            "type": "string"
+        },
+        "otp": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

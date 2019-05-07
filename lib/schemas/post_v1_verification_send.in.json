@@ -1,0 +1,26 @@
+{
+    "type": "object",
+    "properties": {
+        "country_code": {
+            "type": "string"
+        },
+        "format": {
+            "enum": [
+                "json",
+                "xml"
+            ],
+            "type": "string"
+        },
+        "tel": {
+            "required": true,
+            "type": "string"
+        },
+        "key": {
+            "required": true,
+            "type": "string"
+        },
+        "mesg": {
+            "type": "string"
+        }
+    }
+}
